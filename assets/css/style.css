@@ -18,19 +18,58 @@ body {
   padding: 1vw 3vw;
 }
 .navbar-brand{
-    color: var(--dark-purple);
+    color: var(--lime);
     font-size: 40px;
     font-weight: 600;
 }
+.navbar-brand:hover{
+    color: var(--dark-purple);
+}
 .nav-link {
   color: var(--dark-purple);
-  font-size: 20px
+  font-size: 18px
 }
 .navbar-nav {
   gap: 2vw;
 }
-.navbar-brand:hover,
 .nav-link:hover {
   color: var(--lime);
 }
 /*nav bar*/
+/*about me*/
+/*about me*/
+
+/*work*/
+.col{
+   padding: 1vw;
+}
+.card img{
+    height: 15rem;
+}
+
+.card-body{
+    background-color:var(--lime);
+    color: var(--dark-purple);
+}
+.btn{
+    background-color: var(--dark-purple);
+border-color: var(--lime);
+color: var(--light-purple);
+
+}
+.btn:hover{
+    background-color: var(--purple);
+    color: var(--dark-purple);
+    border-color: var(--dark-purple);
+}
+/*work*/
+
+/*contact*/
+/*contact*/
+
+/*footer*/
+/*footer*/
+/*
+.card-text{
+    height: 3rem;
+}
