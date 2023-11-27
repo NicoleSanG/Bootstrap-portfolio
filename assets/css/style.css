@@ -6,7 +6,7 @@
   --light-purple: #ede4ff;
   --purple: #d7bbf5;
   --dark-purple: #6528f7;
-  --lime: #E9FFC2;
+  --lime: #e6fffb;
 }
 body {
   background-color: var(--light-purple);
@@ -64,6 +64,17 @@ color: var(--light-purple);
     box-shadow: 0 4px 8px var(--dark-purple);
 }
 /*work*/
+/*skills*/
+.skills-container{
+    padding: 5vw;
+    background-color: var(--lime);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content:
+    space-evenly; 
+}
+/*skills*/
 
 /*contact*/
 /*contact*/
@@ -90,6 +101,4 @@ color: var(--light-purple);
     text-decoration: underline 3px var(--lime);    
 }
 /*footer*/
-/*
 
-}
