@@ -38,6 +38,9 @@ body {
 }
 /*nav bar*/
 /*about me*/
+.jumbotron{
+    background-color: var(--pink);
+}
 /*about me*/
 
 /*work*/
@@ -79,24 +82,13 @@ body {
 /*contact*/
 
 /*footer*/
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
-}
-.menu-footer {
-  display: flex;
-  gap: 5vw;
-  padding: 3vw 0;
-}
-.footer-content a {
+
+
+.text-footer a {
   text-decoration: none;
   color: var(--dark-purple);
 }
-.footer-content a:hover {
+footer a:hover {
   text-decoration: underline 3px var(--dark-pink);
 }
 /*footer*/
