@@ -60,7 +60,7 @@ body {
   border-color: var(--pink);
   color: var(--light-purple);
 }
-.btn:hover {
+.btn:hover{
   background-color: var(--purple);
   color: var(--dark-purple);
   border-color: var(--dark-purple);
@@ -82,7 +82,6 @@ body {
 /*contact*/
 
 /*footer*/
-
 
 .text-footer a {
   text-decoration: none;
