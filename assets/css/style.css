@@ -62,7 +62,7 @@ body {
 /*work*/
 /*skills*/
 .skills-container {
-  padding: 5vw;
+  padding: 6vw;
   background-color: var(--pink);
   display: flex;
   flex-wrap: wrap;
