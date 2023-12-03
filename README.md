@@ -17,6 +17,7 @@ Deployed portfolio URL: https://nicolesang.github.io/Bootstrap-portfolio/
 ![Desktop view](assets/images/Boostrap-portfolio-desktop.png)
 
 - These images showcases the portfolio's appearance on smaller screens, such as mobile phones. The navigation functions in the same way as it does on the desktop view.
+- The menu will be displayed when the hamburger menu in the top-left corner is clicked.
 
 ![Mobile phone view](assets/images/mobile-about.jpeg)
 
@@ -28,7 +29,7 @@ Deployed portfolio URL: https://nicolesang.github.io/Bootstrap-portfolio/
 
 ## Credits
 
-- Hero image https://unsplash.com/photos/white-clouds-and-blue-sky-during-daytime-pr0I-DUB5eA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
+- Hero image: https://unsplash.com/photos/white-clouds-and-blue-sky-during-daytime-pr0I-DUB5eA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
 - Icons: https://icons8.com/icons
 
 
@@ -54,3 +55,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Badges
+
+![badmath](https://img.shields.io/badge/HTML-85.5-blue)
+![badmath](https://img.shields.io/badge/CSS-14.5-purple)
