@@ -2,17 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<title>Portfolio</title>
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md customized-nav sticky-top">
+    <nav class="navbar navbar-expand-md customized-nav">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,49 +28,67 @@
                     <a class="nav-link" href="#work">Work</a>
                     <a class="nav-link" href="#skills">Skills</a>
                     <a class="nav-link" href="#contact">Contact me</a>
-                    <a class="nav-link" href="./assets/Pdf/CV.pdf" target="_blank">Resume</a>
+                    <a class="nav-link" href="./assets/Pdf/CVNICOLESG-28THAPRIL.pdf" target="_blank">Resume</a>
                 </div>
             </div>
         </div>
     </nav>
+
     <section id="about">
         <div class="p-5 mb-4 jumbotron d-flex align-items-center justify-content-center mx-auto">
             <div class="container-fluid py-3 text-center">
                 <h1 class="display-6 fw-bold mb-5">NICOLE SANTAMARIA</h1>
-                <div class="col-lg-3 align-items-center d-flex mx-auto">
-                    <img src="./assets/images/nicolepic.png" alt="Nicole's portrait" class="img-fluid mb-3">
+                <div class="d-flex justify-content-center">
+                    <div class="col-8 col-md-4 col-lg-3">
+                        <img src="./assets/images/nicolepic.png" alt="Nicole's portrait"
+                            class="img-fluid mb-3 rounded" />
+                    </div>
                 </div>
-                <p class="col-md-8 fs-4 mx-auto">Hi, I'm <b>Nicole</b>, a junior Front-end developer based in London. I
-                    fuse my love for coding, art, and design to craft innovative digital experiences. Eager to learn and
-                    grow in the dynamic tech world, I'm also a fervent traveler, relishing diverse cultures, cuisines,
-                    and quality time with loved ones.</p>
-                <button class="btn btn-lg btn-jumbotron" type="button" onclick="window.location.href='#contact'">Contact
-                    me</button>
+                <p class="col-md-8 fs-4 mx-auto">
+                    Hi, I'm <b>Nicole</b>, a junior Front-end Developer based in London.
+                    I fuse my love for coding, art, and design to craft innovative
+                    digital experiences. Eager to learn and grow in the dynamic tech
+                    world, I am currently upskilling to strengthen my UX/UI design
+                    practice and enhance the user-centered approach to my work. With
+                    experience working in multicultural environments, I'm driven to
+                    design accessible and inclusive solutions.
+                </p>
+                <button class="btn btn-lg btn-jumbotron" type="button" onclick="window.location.href='#contact'">
+                    Contact me
+                </button>
             </div>
         </div>
     </section>
+
     <section id="work">
         <div class="container text-center">
+            <h2>MY WORK</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                 <div class="col">
                     <div class="card">
                         <img src="./assets/images/restaurant-gd.png" class="card-img-top"
-                            alt="Chinese restaurant website preview">
+                            alt="Chinese restaurant website preview" />
                         <div class="card-body">
-                            <h5 class="card-title">Chinese Restaurant</h5>
-                            <p class="card-text">Chinese Restaurant website developed with HTML, CSS and JavaScript.</p>
+                            <h4 class="card-title">Chinese Restaurant</h4>
+                            <p class="card-text">
+                                Chinese Restaurant website developed with HTML, CSS and
+                                JavaScript.
+                            </p>
                             <a href="https://nicolesang.github.io/Restaurant/" class="btn btn-primary"
                                 target="_blank">Go to website</a>
                         </div>
                     </div>
                 </div>
+
                 <div class="col">
                     <div class="card">
-                        <img src="./assets/images/meow-app.png" class="card-img-top" alt="MeowMatch website preview">
+                        <img src="./assets/images/meow-app.png" class="card-img-top" alt="MeowMatch website preview" />
                         <div class="card-body">
-                            <h5 class="card-title">MeowMatch</h5>
-                            <p class="card-text">Landing page for a fictional app developed with HTML, CSS and
-                                Bootstrap.</p>
+                            <h4 class="card-title">MeowMatch</h4>
+                            <p class="card-text">
+                                Landing page for a fictional app developed with HTML, CSS and
+                                Bootstrap.
+                            </p>
                             <a href="https://nicolesang.github.io/MeowMatch/" class="btn btn-primary" target="_blank">Go
                                 to website</a>
                         </div>
@@ -75,22 +97,27 @@
                 <div class="col">
                     <div class="card">
                         <img src="./assets/images/get-to-know-me.png" class="card-img-top"
-                            alt="Nicole's Introduction website preview">
+                            alt="Nicole's Introduction website preview" />
                         <div class="card-body">
-                            <h5 class="card-title">Introduction</h5>
-                            <p class="card-text">Website to get to know me developed with HTML and CSS.</p>
-                            <a href="https://nicolesang.github.io/Introduction/" target="_blank" class="btn btn-primary"
+                            <h4 class="card-title">Introduction</h4>
+                            <p class="card-text">
+                                Website to get to know me developed with HTML and CSS.
+                            </p>
+                            <a href="https://nicolesang.github.io/Introduction/" class="btn btn-primary"
                                 target="_blank">Go to website</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="./assets/images/portfolio1.png" class="card-img-top" alt="Nicole's portfolio preview">
+                        <img src="./assets/images/portfolio1.png" class="card-img-top"
+                            alt="Nicole's portfolio preview" />
                         <div class="card-body">
-                            <h5 class="card-title">Portfolio</h5>
-                            <p class="card-text">My first portfolio to showcase my projects, developed with HTML and
-                                CSS.</p>
+                            <h4 class="card-title">Portfolio</h4>
+                            <p class="card-text">
+                                My first portfolio to showcase my projects, developed with
+                                HTML and CSS.
+                            </p>
                             <a href="https://nicolesang.github.io/NicoleSanG-portfolio/" class="btn btn-primary"
                                 target="_blank">Go to website</a>
                         </div>
@@ -98,11 +125,12 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="./assets/images/barbie.png" class="card-img-top" alt="Barbie website preview">
+                        <img src="./assets/images/barbie.png" class="card-img-top" alt="Barbie website preview" />
                         <div class="card-body">
-                            <h5 class="card-title">Barbie Web</h5>
-                            <p class="card-text">Barbie movie website, developed with
-                                HTML and CSS.</p>
+                            <h4 class="card-title">Barbie Web</h4>
+                            <p class="card-text">
+                                Barbie movie website, developed with HTML and CSS.
+                            </p>
                             <a href="https://nicolesang.github.io/csb-sj4vd3/" class="btn btn-primary"
                                 target="_blank">Go to website</a>
                         </div>
@@ -110,10 +138,12 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="./assets/images/horiseon.png" class="card-img-top" alt="Horiseon website preview">
+                        <img src="./assets/images/horiseon.png" class="card-img-top" alt="Horiseon website preview" />
                         <div class="card-body">
-                            <h5 class="card-title">Horiseon</h5>
-                            <p class="card-text">Code refactor project with HTML and CSS for improving SEO.</p>
+                            <h4 class="card-title">Horiseon</h4>
+                            <p class="card-text">
+                                Code refactor project with HTML and CSS for improving SEO.
+                            </p>
                             <a href="https://nicolesang.github.io/horiseon-code-refractor/" class="btn btn-primary"
                                 target="_blank">Go to website</a>
                         </div>
@@ -122,81 +152,130 @@
             </div>
         </div>
     </section>
+
     <section id="skills">
-        <div class="skills-container">
-            <div><img src="./assets/icons/HTML.png" class="img-thumbnail" alt="HTML icon">
-                <p>HTML5</p>
-            </div>
-            <div>
-                <img src="./assets/icons/CSS.png" class="img-thumbnail" alt="CSS icon">
-                <p>CSS3</p>
-            </div>
-            <div>
-                <img src="./assets/icons/JS.png" class="img-thumbnail" alt="JavaScript icon">
-                <p>JavaScript</p>
-            </div>
-            <div>
-                <img src="./assets/icons/bootstrap.png" class="img-thumbnail" alt="Bootstrap icon">
-                <p>Bootstrap</p>
-            </div>
-            <div>
-                <img src="./assets/icons/jquery.png" class="img-thumbnail" alt="jQuery icon">
-                <p>jQuery</p>
-            </div>
-            <div>
-                <img src="./assets/icons/json.png" class="img-thumbnail" alt="JSON icon">
-                <p>JSON</p>
-            </div>
-            <div>
-                <img src="./assets/icons/react.png" class="img-thumbnail" alt="React icon">
-                <p>React</p>
-            </div>
-            <div>
-                <img src="./assets/icons/node.png" class="img-thumbnail" alt="Node icon">
-                <p>Node.js</p>
-            </div>
-            <div>
-                <img src="./assets/icons/git.png" class="img-thumbnail" alt="Git icon">
-                <p>Git</p>
+        <div class="container py-5">
+            <h2>MY SKILLS</h2>
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center p-3 skills-card">
+                        <h3 class="mb-4">Design</h3>
+                        <div class="row justify-content-center">
+                            <div class="col-4 d-flex flex-column align-items-center mb-3">
+                                <img src="./assets/icons/icons8-figma.svg" class="skills-icon" alt="Figma" />
+                                <p class="skill-name">Figma</p>
+                            </div>
+                            <div class="col-4 d-flex flex-column align-items-center mb-3">
+                                <img src="./assets/icons/icons8-canva.svg" class="skills-icon" alt="Canva" />
+                                <p class="skill-name">Canva</p>
+                            </div>
+                            <div class="col-4 d-flex flex-column align-items-center mb-3">
+                                <img src="./assets/icons/icons8-fresco.svg" class="skills-icon" alt="Adobe Fresco" />
+                                <p class="skill-name">A. Fresco</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card text-center p-3 skills-card">
+                        <h3 class="mb-4">Development</h3>
+                        <div class="row justify-content-center">
+                            <div class="col-4 d-flex flex-column align-items-center mb-3">
+                                <img src="./assets/icons/icons8-html-5.svg" class="skills-icon" alt="HTML" />
+                                <p class="skill-name">HTML5</p>
+                            </div>
+                            <div class="col-4 d-flex flex-column align-items-center mb-3">
+                                <img src="./assets/icons/icons8-css.svg" class="skills-icon" alt="CSS" />
+                                <p class="skill-name">CSS3</p>
+                            </div>
+                            <div class="col-4 d-flex flex-column align-items-center mb-3">
+                                <img src="./assets/icons/icons8-javascript.svg" class="skills-icon" alt="JavaScript" />
+                                <p class="skill-name">JavaScript</p>
+                            </div>
+                            <div class="col-4 d-flex flex-column align-items-center mb-3">
+                                <img src="./assets/icons/icons8-bootstrap-50.svg" class="skills-icon" alt="Bootstrap" />
+                                <p class="skill-name">Bootstrap</p>
+                            </div>
+                            <div class="col-4 d-flex flex-column align-items-center mb-3">
+                                <img src="./assets/icons/icons8-tailwind-css.svg" class="skills-icon"
+                                    alt="TailwindCSS" />
+                                <p class="skill-name">Tailwind</p>
+                            </div>
+                            <div class="col-4 d-flex flex-column align-items-center mb-3">
+                                <img src="./assets/icons/icons8-git.svg" class="skills-icon" alt="Git" />
+                                <p class="skill-name">Git</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card text-center p-3 skills-card">
+                        <h3 class="mb-4">Collaboration</h3>
+                        <div class="row justify-content-center">
+                            <div class="col-4 d-flex flex-column align-items-center mb-3">
+                                <img src="./assets/icons/icons8-notion.svg" class="skills-icon" alt="Notion" />
+                                <p class="skill-name">Notion</p>
+                            </div>
+                            <div class="col-4 d-flex flex-column align-items-center mb-3">
+                                <img src="./assets/icons/icons8-ms-office.svg" class="skills-icon" alt="MS Office" />
+                                <p class="skill-name">MS Office</p>
+                            </div>
+                            <div class="col-4 d-flex flex-column align-items-center mb-3">
+                                <img src="./assets/icons/icons8-trello.svg" class="skills-icon" alt="Trello" />
+                                <p class="skill-name">Trello</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="contact" class="contact-container">
         <div class="container">
-            <h2>Contact Me</h2>
-            <div class="container">
-                <div class="row contact-container2">
-                    <div class="col">
-                        +447307781618
-                    </div>
-                    <div class="col">
-                        nicolesantamariagranizo@gmail.com
-                    </div>
-                    <div class="col">
-                        <a href="https://github.com/NicoleSanG" target="_blank"><img src="./assets/icons/github.png"
-                                class="contact-icons" alt="github icon"></a>
-                        <a href="https://www.linkedin.com/in/karen-nicole-santamar%C3%ADa" target="_blank"><img
-                                src="./assets/icons/linkedin.png" class="contact-icons alt=" Linkedin icon"></a>
-                    </div>
+            <h2>CONTACT ME</h2>
+            <div class="row contact-container2 text-center">
+                <div class="col">+447307781618</div>
+                <div class="col">nicolesantamariagranizo@gmail.com</div>
+                <div class="col">
+                    <a href="https://github.com/NicoleSanG" target="_blank"><img src="./assets/icons/icons8-github.svg"
+                            class="contact-icons" alt="GitHub icon" /></a>
+                    <a href="https://www.linkedin.com/in/karen-nicole-santamar%C3%ADa" target="_blank"><img
+                            src="./assets/icons/icons8-linkedin.svg" class="contact-icons" alt="LinkedIn icon" /></a>
                 </div>
             </div>
         </div>
     </section>
-    <div class="container">
-        <footer class="py-3 my-4">
-            <ul class="nav justify-content-center pb-3 mb-3">
-                <li class="nav-item"><a href="#about" class="nav-link px-2">About</a></li>
-                <li class="nav-item"><a href="#work" class="nav-link px-2">Work</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link px-2">Skills</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link px-2">Contact</a></li>
-                <li class="nav-item"><a href="./assets/Pdf/CV.pdf" class="nav-link px-2" target="_blank">Resume</a></li>
-            </ul>
-            <p class="text-center text-footer">&copy; 2023, Developed and designed with 💜 by <a
-                    href="https://github.com/NicoleSanG" target="_blank"><b>Nicole
-                        Santamaría</b></a></p>
-        </footer>
-    </div>
+
+    <section id="footer">
+        <div class="container">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center pb-3 mb-3">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link px-2">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link px-2">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link px-2">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link px-2">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./assets/Pdf/CVNICOLESG-28THAPRIL.pdf" class="nav-link px-2" target="_blank">Resume</a>
+                    </li>
+                </ul>
+                <p class="text-center text-footer">
+                    &copy; 2025, Developed and designed with 💜 by
+                    <a href="https://github.com/NicoleSanG" target="_blank"><b>Nicole Santamaría</b></a>
+                </p>
+            </footer>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
